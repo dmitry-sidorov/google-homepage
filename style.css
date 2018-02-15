@@ -1,9 +1,19 @@
+
+
 .head-bar {
-	position: absolute;
-	right: 0;
-	width: 100%;
-	display: block;
+	display: grid;
+	grid-template: 50px / auto auto auto auto auto;
+	grid-column-gap: 20px;
+	justify-content: end;
+	align-items: center;
+}	
+
+.ref {
+	font-size: 14px;
+	color: black;
+	font-style: normal;
 }
+
 
 .user {
 	border-radius: 10px;
